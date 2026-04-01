@@ -34,4 +34,9 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
         invalidate()
         return true
     }
+
+    fun clearCanvas() {
+        path.reset()
+        invalidate()
+    }
 }
