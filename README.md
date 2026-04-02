@@ -34,6 +34,6 @@ I found these websites useful in developing this software:
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] First thing here
-* [ ] 
-* [ ]
+* [ ] Drawing tools and brush sizes (Brush types, Eraser, Shapes, Text, etc.)
+* [ ] Drawing Layers
+* [ ] More Color tools (Color picker, Palettes, Gradient brush)

@@ -15,4 +15,78 @@
         android:text="Clear"
         android:layout_margin="16dp" />
 
+    <Button
+        android:id="@+id/undoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Undo"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|start" />
+
+    <Button
+        android:id="@+id/redoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redo"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/blackButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FF0000" />
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#00FF00" />
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#0000FF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/colorPickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Color"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/saveDrawingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"/>
+
 </FrameLayout>
